@@ -337,12 +337,43 @@
 // 18. Write a JavaScript function that reverse a number. 
 
 
-let number = [1,2,3,4,5,6,7]
-function numberReverse(number) {
-    number.reverse()
-    number = number.toString().replace(/,/g , '')
-    console.log(number);
-}
-numberReverse(number)
 
 
+// let number = [1, 2, 3, 4, 5, 6, 7];
+// function numberReverse(number) {
+//     number.reverse();
+//     number = number.toString().replace(/,/g, "");
+//     console.log(number);
+// }
+// numberReverse(number);
+
+
+
+
+
+// 19. Write a JavaScript function that checks whether a passed string is palindrome or not? A palindrome is word, phrase, or sequence that reads the same backward as forward, e.g., madam.
+
+
+
+
+// function isPalindrome(value) {
+//     splited = value.split("")
+//     reversed = splited.reverse()
+//     reversedValue = reversed.join("")
+//     if (value === reversedValue){
+//         console.log(`${value} is palindrome!`);
+//     }
+//     else{
+//         console.log(`${value} is not palindrome!`);
+//     }
+// }
+
+
+// isPalindrome("madam")
+
+
+
+
+
+
+// 20. Write a JavaScript function that accepts a string as a parameter and converts the first letter of each word of the string in upper case.EXAMPLE STRING : 'the quick brown fox'EXPECTED OUTPUT : 'The Quick Brown Fox'
