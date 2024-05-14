@@ -246,3 +246,103 @@
 // 13. Write a function that receives an array & returns the sorted array.
 
 
+
+
+
+
+
+// let array =  ["Uzair","Haider","Ali","Umar","Syed", "Abdullah"]
+// function sorted(array) {
+//     array.sort()
+// }
+// sorted(array);
+// console.log(array);
+
+
+
+
+
+
+// 14. Write a function that takes numbers array, sums its elements & returns the sum.
+
+
+
+
+
+
+// let array = [212,434,544,534,2,434,423,23]
+// let summed = 0 ;
+// function sumArray(array) {
+//     for (let i = 0; i < array.length; i++) {
+//         summed += array[i];
+//     }    
+// }
+// sumArray(array)
+// console.log(summed);
+
+
+
+
+
+
+
+
+// 15. Execute & monitor the output of following JS program:
+
+
+
+
+
+// var param = function inner() {
+//  return typeof inner;
+// }
+// alert(param());
+
+
+
+
+
+
+// 16. Write a function that computes power of a number. E.g. 23 is 8.
+
+
+
+
+
+// function power(number,power){
+//     powerOfNumber = number ** power ;
+//     console.log(powerOfNumber);
+// }
+// power(23 , 2)
+
+
+
+
+
+// 17. Write a function that simulates a dice & returns a random dice value.
+
+
+
+// function diceSimulate() {
+//    random = Math.ceil(Math.random() * 6);
+//     console.log(random);    
+// }
+
+// diceSimulate()
+
+
+
+
+
+// 18. Write a JavaScript function that reverse a number. 
+
+
+let number = [1,2,3,4,5,6,7]
+function numberReverse(number) {
+    number.reverse()
+    number = number.toString().replace(/,/g , '')
+    console.log(number);
+}
+numberReverse(number)
+
+
