@@ -193,9 +193,13 @@
 
 
 
-// can't understand 
 
-
+// function findLength (){
+//     return arguments.length
+// }
+// let result = findLength("Uzair","[a,b,x]", 4)
+// console.log(result);
+ 
 
 
 
@@ -377,3 +381,43 @@
 
 
 // 20. Write a JavaScript function that accepts a string as a parameter and converts the first letter of each word of the string in upper case.EXAMPLE STRING : 'the quick brown fox'EXPECTED OUTPUT : 'The Quick Brown Fox'
+// let text = "the quick brown fox";
+// function casing(text) {
+//   let splited = text.split(" ");
+//   for (let i = 0; i < splited.length; i++) {
+//     let selc = splited[i];
+//     let restChr = splited[i].slice(1)
+//     firstChr = selc[0].toUpperCase()
+//     splited[i] = firstChr+restChr
+//   }
+//   console.log(splited.join(" "));
+// }
+// casing(text)
+
+
+
+
+
+
+
+
+// 21. Write a JavaScript function that accepts a string as a parameter and find the longest word within the string. EXAMPLE STRING : 'Web Development Tutorial' EXPECTED OUTPUT : 'Development'
+// let text = "Web Development Tutorial";
+// function longest(text) {
+//   let largest = "";
+//   splited = text.split(" ");
+//   for (let i = 0; i < splited.length; i++) {
+//     if (splited[i].length > largest.length) {
+//       largest = splited[i];
+//     }
+//   }
+//   return largest;
+// }
+// console.log(longest(text));
+
+
+
+
+
+
+
